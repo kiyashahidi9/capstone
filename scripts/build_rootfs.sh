@@ -20,7 +20,7 @@ REAL_HOME="$(getent passwd "$REAL_USER" | cut -d: -f6)"
 WORKDIR="${WORKDIR:-$REAL_HOME/fc}"
 ROOTFS_DIR="$WORKDIR/rootfs-dir"
 ROOTFS_SIZE="${ROOTFS_SIZE:-4G}"
-GUEST_PACKAGES="python3 git curl ca-certificates nodejs npm"
+GUEST_PACKAGES="ca-certificates python3 git curl nodejs npm"
 
 S3="https://s3.amazonaws.com/spec.ccfc.min"
 ARCH="$(uname -m)"
