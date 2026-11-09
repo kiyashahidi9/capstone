@@ -1,4 +1,4 @@
-gcl#!/usr/bin/env bash
+#!/usr/bin/env bash
 # scripts/setup_host.sh — rebuild the sandbox host (Project Plan MVP, section 1a).
 #
 #   1. On your laptop / Cloud Shell:   ./scripts/setup_host.sh create
