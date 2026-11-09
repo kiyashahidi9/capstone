@@ -1,1 +1,0 @@
-Firecracker: v1.18.0
