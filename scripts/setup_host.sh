@@ -18,7 +18,7 @@ BOOT_DISK_TYPE="${BOOT_DISK_TYPE:-pd-balanced}"
 # Pinned Firecracker version (e.g. FC_VERSION="v1.16.1"). Leave empty ONLY on the
 # very first build: the script resolves the latest release and prints it, then you
 # pin that exact value here and in NOTES.md so everyone uses the same binary.
-FC_VERSION="${FC_VERSION:-}"
+FC_VERSION="${FC_VERSION:-v1.18.0}"
 
 FC_RELEASES="https://github.com/firecracker-microvm/firecracker/releases"
 
